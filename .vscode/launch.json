@@ -1,0 +1,24 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Data_types.dart",
+            "type": "dart",
+            "request": "launch",
+            "program": "Chapter1/Data_types.dart"
+        },
+        {
+            "name": "Hello_world.dart",
+            "type": "dart",
+            "request": "launch",
+            "program": "Chapter1/Hello_world.dart"
+        
+        },
+        
+
+      
+    ]
+}

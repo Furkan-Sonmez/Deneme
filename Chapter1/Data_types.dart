@@ -21,6 +21,7 @@ void main() {
   var phoneModel = "iphone";
 
   int weight = 76.5.toInt(); // if you want to change value type , you can use to.type() funcion
-
+  print (weight.runtimeType);
   print(name + "Hello ");
+  
 }

@@ -5,6 +5,12 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "Dart",
+            "type": "dart",
+            "request": "launch",
+            "program": "/Chapter1/Decision_structures.dart"
+        },
+        {
             "name": "Data_types.dart",
             "type": "dart",
             "request": "launch",

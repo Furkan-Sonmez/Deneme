@@ -8,19 +8,19 @@
             "name": "Dart",
             "type": "dart",
             "request": "launch",
-            "program": "/Chapter1/Decision_structures.dart"
+            "program": "/DartBasic/Decision_structures.dart"
         },
         {
             "name": "Data_types.dart",
             "type": "dart",
             "request": "launch",
-            "program": "Chapter1/Data_types.dart"
+            "program": "DartBasic/Data_types.dart"
         },
         {
             "name": "Hello_world.dart",
             "type": "dart",
             "request": "launch",
-            "program": "Chapter1/Hello_world.dart"
+            "program": "DartBasic/Hello_world.dart"
         
         },
         

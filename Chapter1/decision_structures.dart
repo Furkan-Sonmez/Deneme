@@ -41,4 +41,40 @@ expression1 ??  expression2           here if expression1 is null application wi
 
   mesaj = name ?? surname;
   print("Hello $mesaj");
+
+/* switch 
+==> we use just for string and int 
+==> dont forget include to default  
+==> you must write break , 
+*/
+
+  String grade = "BB";
+  switch (grade) {
+    case "AA":
+      print("Your exam scoure is between 90-100 ");
+      break;
+    case "BB":
+      print("Your exam scoure is betwenn 80-90");
+      break;
+    case "BC":
+      print("Your exam scoure is betwenn 70-80");
+      break;
+    case "CC":
+      print("Your exam scoure is betwenn 60-70");
+      break;
+    case "DC":
+      print("Your exam scoure is betwenn 50-60");
+      break;
+    case "DD":
+      print("Your exam scoure is betwenn 40-50");
+      break;
+    case "FF":
+      print("Your exam scoure is betwenn 00-50");
+      break;
+
+    default:
+      {
+        print("Incorrect scoure entry ");
+      }
+  }
 }

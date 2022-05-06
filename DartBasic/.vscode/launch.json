@@ -4,27 +4,18 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+        
         {
             "name": "Dart",
             "type": "dart",
             "request": "launch",
-            "program": "/DartBasic/Decision_structures.dart"
+            "program": "${file}",
         },
         {
-            "name": "Data_types.dart",
-            "type": "dart",
+            "name": "Dart & Flutter",
             "request": "launch",
-            "program": "DartBasic/Data_types.dart"
-        },
-        {
-            "name": "Hello_world.dart",
-            "type": "dart",
-            "request": "launch",
-            "program": "DartBasic/Hello_world.dart"
-        
-        },
-        
-
-      
+            "type": "dart"
+            
+        }
     ]
 }

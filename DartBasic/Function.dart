@@ -3,14 +3,17 @@ void calculatePerimeter() {
   int perimeter = (width + height) * 2;
   print("Perimeter is = $perimeter");
 }
+
 int calculateArea(int width, int height) {
   int area = width * height;
   return area;
 }
 
-int addition(int num1, int num2, [int num3 = 0]) { // we can use [] for default value . if we used [] , we dont have to use that value (optional parameter)
+int addition(int num1, int num2, [int num3 = 0]) {
+  // we can use [] for default value . if we used [] , we dont have to use that value (optional parameter)
   return (num1 + num2 + num3);
 }
+
 int extraction(int num1, int num2) => num1 - num2; // we can also use this
 
 int findBigNum(int num1, int num2) => num1 > num2 ? num1 : num2;

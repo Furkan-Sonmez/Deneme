@@ -88,6 +88,10 @@ void main() {
   var myMap = <String, dynamic>{};
   var mySet = <String>{};
 
+  var student = <List>[];
+  student.add([1, 1]);
+  print(student);
+
 //example
   var list1 = List.filled(5, 0);
   var list2 = List.filled(5, 0);

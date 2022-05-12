@@ -5,8 +5,8 @@
 
 */
 
-import 'Circle.dart';
-import 'Student.dart';
+import 'CircleClass.dart';
+import 'StudentClass.dart';
 
 void main(List<String> args) {
   print(Circle(3).calculateCircumference());

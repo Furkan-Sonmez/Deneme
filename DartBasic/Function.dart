@@ -25,7 +25,7 @@ void main() {
 
   calculatePerimeter();
 
-  int area = calculateArea(10, 20);
+  print("area is = ${calculateArea(10, 20)}");
 
   print("Biger number is ${findBigNum(10, 13)}");
   print("Smaller number is ${findSmallNum(10, 13)}");

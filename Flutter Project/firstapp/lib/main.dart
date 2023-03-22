@@ -2,10 +2,12 @@
 import 'package:flutter/material.dart';
 
 void main(List<String> args) {
-  runApp(MyApp());
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
    Container containerOlustur(String harf, Color renk, {double margin = 0}) {
     return Container(
       alignment: Alignment.center,
@@ -70,7 +72,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(primaryColor: Colors.teal),
       home: Scaffold(
         appBar: AppBar(
-          title: Text('Başlık'),
+          title: const Text('Başlık'),
         ),
         body: Container(
           color: Colors.red.shade100,

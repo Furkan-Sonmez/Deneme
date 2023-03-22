@@ -1,5 +1,3 @@
-import 'dart:math';
-
 class Person {
   String? name;
   int age;
@@ -16,6 +14,7 @@ class Worker extends Person {
 
   @override
   void selfInfo() {
+    // ignore: todo
     // TODO: implement selfInfo
     super.selfInfo();
     print("My cost is $cost");

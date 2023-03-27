@@ -1,3 +1,5 @@
+import 'dart:collection';
+
 void calculatePerimeter() {
   int width = 5, height = 10;
   int perimeter = (width + height) * 2;
@@ -29,4 +31,22 @@ void main() {
 
   print("Biger number is ${findBigNum(10, 13)}");
   print("Smaller number is ${findSmallNum(10, 13)}");
+
+  bool promoActive = true;
+  var nav = [
+    'Home',
+    'Furniture',
+    'Plants',
+    if (promoActive) 'Outlet' else "furkan"
+  ];
+
+  print(nav);
+
+  var listOfInts = [1, 2, 3];
+  var listOfStrings = ['#0', for (var i in listOfInts) '#$i'];
+
+  print(listOfStrings);
+
+
+
 }
